@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="description"
+      content="A website that allows you to randomly assign names to people in order to do Secret Santa. You can only click on your own name once before the button is greyed out, and every time you opne or refresh the page the names will be reassigned randomly."
+    />
+
+    <mmeta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Delius&family=Henny+Penny&family=Quando&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="script.js"></script>
+
+    <title>Secret Santa</title>
+  </head>
+  <body>
+    <main>
+      <div class="body-main">
+        <div class="body-content">
+          <p class="heading-primary">Quien Eres?</p>
+
+          <div class="for-btns">
+            <button class="btn btn--family romualdo">Romualdo</button>
+            <button class="btn btn--family olivia">Olivia</button>
+            <button class="btn btn--family linette">Linette</button>
+            <button class="btn btn--family isabella">Isabella</button>
+            <button class="btn btn--family melanie">Melanie</button>
+          </div>
+
+          <div>
+            <img
+              src="images/Santa.png"
+              class="santa"
+              alt="Cartoon Santa that stares into your soul. He knows what you've done."
+            />
+          </div>
+
+          <div class="overlay hidden"></div>
+
+          <div class="pop-up hidden">
+            <button class="btn btn--close">&times;</button>
+            <p class="text text--pop-up">Eres el Secret Santa de:</p>
+            <p class="heading-primary heading-target"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

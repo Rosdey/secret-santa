@@ -1,0 +1,91 @@
+.body-main {
+  margin: 5rem auto;
+}
+
+.body-content {
+  max-width: 150rem;
+  min-height: 90vh;
+  padding: 10rem 8rem;
+  margin: 0 auto;
+
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* border: 1.2rem solid #3c6c88; */
+  border-radius: 1.6rem;
+}
+
+.heading-target {
+  margin-bottom: 0;
+  margin-top: 6.2rem;
+  color: #ca4648;
+
+  text-align: center;
+  text-shadow: none;
+}
+
+.text--pop-up {
+  /* something */
+}
+
+.for-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.btn--family {
+  background-color: #fff;
+  font-size: 3rem !important;
+  /* font-family: 'Delius', sans-serif; */
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 700;
+  color: #1f4155;
+  border: 0.5rem solid #4f8bad;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.btn--close {
+  position: absolute;
+  top: 0rem;
+  right: 2.4rem;
+  font-size: 6.2rem;
+  color: #4b0c0b;
+  border: none;
+  background-color: #ffffff00;
+}
+
+.santa {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 44rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.493);
+  backdrop-filter: blur(3px);
+}
+
+.pop-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  min-width: 62rem;
+  padding: 5.2rem 5.2rem 7.4rem 5.2rem;
+  background-color: #fff;
+  border: 1.2rem solid #ca4648;
+  border-radius: 1.6rem;
+  box-shadow: 0 2rem 5rem #0e3b558e;
+}
